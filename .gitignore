@@ -1,0 +1,20 @@
+# Operational information and potentially sensitive exports
+/logs/*
+!/logs/.gitkeep
+*.sqlite
+*.sqlite-*
+*.db
+*.evtx
+*.bak
+*.log
+logfile.txt
+ban.txt
+unban.txt
+ipban.config
+ipban.override.config
+
+# Local development tools
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
